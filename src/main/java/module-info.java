@@ -1,6 +1,7 @@
 module com.eiman.ejr {
-    requires javafx.controls;
+    requires com.eiman.ejq;
     requires javafx.fxml;
+    requires javafx.controls;
 
 
     opens com.eiman.ejr to javafx.fxml;
